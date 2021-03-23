@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D9F942D075B1C67D7DC3D1B4BF3E570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		34FD57C64FF39FF125679D02A885F3D3 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13C7D83570D255C411D1489D4A8491A /* PaymentViewController.swift */; };
+		427EB15888BDFB3EB851DCAE5BA11387 /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C83D26E6A06283D9584694A23A9FF /* PaymentPresenter.swift */; };
+		51DD319D60C9DD4F32449F6AE2A48270 /* Urway.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD89947D2651EFAB7D605DF24843B67 /* Urway.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5975CF505CBDAAE3574B17E11434DFC8 /* UWConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5774A8EE272A35DD7AB83BE98C66EBE3 /* UWConfiguration.swift */; };
+		63713EC0D86B8D19821A5F084A3994FE /* PaymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F8085D1A6829E62C127A05F4C9FA23 /* PaymentRouter.swift */; };
+		75C1B0BA63AD1935770F7E269A7F01C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		8C2C082A85B877151A3ED850A1E2DEAF /* Pods-UrwayDemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D68AA235D8BFF6E9C330D72A1F6116 /* Pods-UrwayDemoApp-dummy.m */; };
+		A44B7F37E7141C94D436E5335341DD40 /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A303F8B00B5714686D98373C79396 /* PaymentManager.swift */; };
+		A8C0F41846BE5C8202D54A76D1ABF06A /* UWInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB2C9635819471D1F21ADBA8AB285 /* UWInitializer.swift */; };
+		BBB690DBAFA2070483D040BFE373D73C /* UMResponceErrorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9722833F80EFDA3EFB296EFEFAEF10 /* UMResponceErrorEnum.swift */; };
+		BD43F595BF9C295F106787CDAD3856F1 /* Pods-UrwayDemoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDE56E29DAEBD2A47800D11DCD7E6B7 /* Pods-UrwayDemoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2EF623354D9A0DDB1D3054608719616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9462722907E2E9B01D02B64304250352 /* Main.storyboard */; };
+		CEDE164C04268974B3AC209146B5A89E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		D7EA018C95673A20FF668AB0266796B4 /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB51215C389E33773483DCDE67DDF699 /* PaymentInteractor.swift */; };
+		D7EE43D7F4D91579963ADFBF9EA51D83 /* UWInitialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB821154CADF0E9414D73EE43E02DD15 /* UWInitialization.swift */; };
+		D97A28EDB947551558AA8CE5C75BEEA4 /* UMUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B39844821FA42441BE80CF27068820F /* UMUtilities.swift */; };
+		F38C0DD0B1CE4E354755D1015449AA0D /* PaymentConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59E1D5E8371191BDB1A0623232D07CB /* PaymentConfiguration.swift */; };
+		F5CF97D602E7DF19DDF46251B69424C7 /* Urway-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC49ABCC189226C60208DE751E8711 /* Urway-dummy.m */; };
+		FF809CC6CBC32FE64AA461BFCCE9DF28 /* Urway-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A46AE557743663061A4ACDA8459992 /* Urway-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		021AA4DDC76382BF27A3466AB9A3BF89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC33FA1649DC6BAFC20DBB8AA8BABB2;
+			remoteInfo = Urway;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070ACCE4CE7B1D43E6E825CE2CF5A047 /* Urway-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Urway-Info.plist"; sourceTree = "<group>"; };
+		0C6087E878DA4C22D7946A3395527E03 /* Pods-UrwayDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UrwayDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		2B9722833F80EFDA3EFB296EFEFAEF10 /* UMResponceErrorEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UMResponceErrorEnum.swift; path = Urway/native/Urway/Others/UMResponceErrorEnum.swift; sourceTree = "<group>"; };
+		2DEC49ABCC189226C60208DE751E8711 /* Urway-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Urway-dummy.m"; sourceTree = "<group>"; };
+		30F8085D1A6829E62C127A05F4C9FA23 /* PaymentRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentRouter.swift; path = Urway/native/Urway/PaymentController/Worker/PaymentRouter.swift; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		351B47B121D64C332390860183719D52 /* Pods_UrwayDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UrwayDemoApp.framework; path = "Pods-UrwayDemoApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BAEEB7E407AED0DE7177C9BE29BE2E /* Urway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Urway.release.xcconfig; sourceTree = "<group>"; };
+		39D68AA235D8BFF6E9C330D72A1F6116 /* Pods-UrwayDemoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UrwayDemoApp-dummy.m"; sourceTree = "<group>"; };
+		3BDE56E29DAEBD2A47800D11DCD7E6B7 /* Pods-UrwayDemoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UrwayDemoApp-umbrella.h"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A523C4E80063887D5685EAFF16EF065 /* Urway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Urway.framework; path = Urway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5774A8EE272A35DD7AB83BE98C66EBE3 /* UWConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UWConfiguration.swift; path = Urway/native/Urway/Others/UWConfiguration.swift; sourceTree = "<group>"; };
+		6246037781C38CECC4355AB94579DA29 /* Pods-UrwayDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UrwayDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6E5C83D26E6A06283D9584694A23A9FF /* PaymentPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentPresenter.swift; path = Urway/native/Urway/PaymentController/Presenter/PaymentPresenter.swift; sourceTree = "<group>"; };
+		73187D64AF777D32C4B2F3779CFDBFE2 /* Pods-UrwayDemoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UrwayDemoApp-frameworks.sh"; sourceTree = "<group>"; };
+		84BEB2C9635819471D1F21ADBA8AB285 /* UWInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UWInitializer.swift; path = Urway/native/Urway/Others/UWInitializer.swift; sourceTree = "<group>"; };
+		8B43BEED6E5F5C56F7C74D6B958970F9 /* Urway.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Urway.modulemap; sourceTree = "<group>"; };
+		9462722907E2E9B01D02B64304250352 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Urway/native/Urway/PaymentController/StoryBoard/Main.storyboard; sourceTree = "<group>"; };
+		9B39844821FA42441BE80CF27068820F /* UMUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UMUtilities.swift; path = Urway/native/Urway/Others/UMUtilities.swift; sourceTree = "<group>"; };
+		9D901E5F2EBF444F4893B823FA8DA503 /* Urway-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Urway-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FAD5ED4906C00EAD190948075B83438 /* Urway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Urway.debug.xcconfig; sourceTree = "<group>"; };
+		A05A303F8B00B5714686D98373C79396 /* PaymentManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentManager.swift; path = Urway/native/Urway/PaymentController/Worker/PaymentManager.swift; sourceTree = "<group>"; };
+		A59E1D5E8371191BDB1A0623232D07CB /* PaymentConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentConfiguration.swift; path = Urway/native/Urway/PaymentController/PaymentConfiguration.swift; sourceTree = "<group>"; };
+		B12768A930894D22F351E5A964FDF3AE /* Pods-UrwayDemoApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UrwayDemoApp.modulemap"; sourceTree = "<group>"; };
+		CCD89947D2651EFAB7D605DF24843B67 /* Urway.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Urway.h; path = Urway/native/Urway/Urway.h; sourceTree = "<group>"; };
+		D0A46AE557743663061A4ACDA8459992 /* Urway-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Urway-umbrella.h"; sourceTree = "<group>"; };
+		D13C7D83570D255C411D1489D4A8491A /* PaymentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentViewController.swift; path = Urway/native/Urway/PaymentController/Controller/PaymentViewController.swift; sourceTree = "<group>"; };
+		D24486D91021B1A088E9A12F8C896DFD /* Pods-UrwayDemoApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UrwayDemoApp-Info.plist"; sourceTree = "<group>"; };
+		E9DEA18B7A0487BB818180D7F337420E /* Pods-UrwayDemoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UrwayDemoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB6A883054DC3BD857564998F000B341 /* Pods-UrwayDemoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UrwayDemoApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB51215C389E33773483DCDE67DDF699 /* PaymentInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentInteractor.swift; path = Urway/native/Urway/PaymentController/Worker/PaymentInteractor.swift; sourceTree = "<group>"; };
+		FB821154CADF0E9414D73EE43E02DD15 /* UWInitialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UWInitialization.swift; path = Urway/native/Urway/UWInitialization.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2AA06B24FB27BE01FBCD8C0C7DA4093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDE164C04268974B3AC209146B5A89E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BC90EAE912C3DDE11ADED9151B6B81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9F942D075B1C67D7DC3D1B4BF3E570 /* Foundation.framework in Frameworks */,
+				75C1B0BA63AD1935770F7E269A7F01C0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1928C33D800881D2FD32CBF9298D3B55 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9D5BF0765C6F759365862067226D63E /* Pods-UrwayDemoApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7EB3750BBD34D60D63788CEF74A08B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351B47B121D64C332390860183719D52 /* Pods_UrwayDemoApp.framework */,
+				4A523C4E80063887D5685EAFF16EF065 /* Urway.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9D5BF0765C6F759365862067226D63E /* Pods-UrwayDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				B12768A930894D22F351E5A964FDF3AE /* Pods-UrwayDemoApp.modulemap */,
+				E9DEA18B7A0487BB818180D7F337420E /* Pods-UrwayDemoApp-acknowledgements.markdown */,
+				EB6A883054DC3BD857564998F000B341 /* Pods-UrwayDemoApp-acknowledgements.plist */,
+				39D68AA235D8BFF6E9C330D72A1F6116 /* Pods-UrwayDemoApp-dummy.m */,
+				73187D64AF777D32C4B2F3779CFDBFE2 /* Pods-UrwayDemoApp-frameworks.sh */,
+				D24486D91021B1A088E9A12F8C896DFD /* Pods-UrwayDemoApp-Info.plist */,
+				3BDE56E29DAEBD2A47800D11DCD7E6B7 /* Pods-UrwayDemoApp-umbrella.h */,
+				6246037781C38CECC4355AB94579DA29 /* Pods-UrwayDemoApp.debug.xcconfig */,
+				0C6087E878DA4C22D7946A3395527E03 /* Pods-UrwayDemoApp.release.xcconfig */,
+			);
+			name = "Pods-UrwayDemoApp";
+			path = "Target Support Files/Pods-UrwayDemoApp";
+			sourceTree = "<group>";
+		};
+		C36878B84F725DD8D00705E7D3D481EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9462722907E2E9B01D02B64304250352 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C8CED5FDB698835F8A94F751F7914AA3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B43BEED6E5F5C56F7C74D6B958970F9 /* Urway.modulemap */,
+				2DEC49ABCC189226C60208DE751E8711 /* Urway-dummy.m */,
+				070ACCE4CE7B1D43E6E825CE2CF5A047 /* Urway-Info.plist */,
+				9D901E5F2EBF444F4893B823FA8DA503 /* Urway-prefix.pch */,
+				D0A46AE557743663061A4ACDA8459992 /* Urway-umbrella.h */,
+				9FAD5ED4906C00EAD190948075B83438 /* Urway.debug.xcconfig */,
+				37BAEEB7E407AED0DE7177C9BE29BE2E /* Urway.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Urway";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				EB93729F22FB65728D664C7A5E30F615 /* Pods */,
+				7EB3750BBD34D60D63788CEF74A08B29 /* Products */,
+				1928C33D800881D2FD32CBF9298D3B55 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB93729F22FB65728D664C7A5E30F615 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C4F7D95C020AC48E7B524A3ACE056 /* Urway */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE2C4F7D95C020AC48E7B524A3ACE056 /* Urway */ = {
+			isa = PBXGroup;
+			children = (
+				A59E1D5E8371191BDB1A0623232D07CB /* PaymentConfiguration.swift */,
+				FB51215C389E33773483DCDE67DDF699 /* PaymentInteractor.swift */,
+				A05A303F8B00B5714686D98373C79396 /* PaymentManager.swift */,
+				6E5C83D26E6A06283D9584694A23A9FF /* PaymentPresenter.swift */,
+				30F8085D1A6829E62C127A05F4C9FA23 /* PaymentRouter.swift */,
+				D13C7D83570D255C411D1489D4A8491A /* PaymentViewController.swift */,
+				2B9722833F80EFDA3EFB296EFEFAEF10 /* UMResponceErrorEnum.swift */,
+				9B39844821FA42441BE80CF27068820F /* UMUtilities.swift */,
+				CCD89947D2651EFAB7D605DF24843B67 /* Urway.h */,
+				5774A8EE272A35DD7AB83BE98C66EBE3 /* UWConfiguration.swift */,
+				FB821154CADF0E9414D73EE43E02DD15 /* UWInitialization.swift */,
+				84BEB2C9635819471D1F21ADBA8AB285 /* UWInitializer.swift */,
+				C36878B84F725DD8D00705E7D3D481EF /* Resources */,
+				C8CED5FDB698835F8A94F751F7914AA3 /* Support Files */,
+			);
+			name = Urway;
+			path = Urway;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20A757250C7CAE040970C04F83139B81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF809CC6CBC32FE64AA461BFCCE9DF28 /* Urway-umbrella.h in Headers */,
+				51DD319D60C9DD4F32449F6AE2A48270 /* Urway.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26011D73AAEFDDF4E0473BE8DD490CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD43F595BF9C295F106787CDAD3856F1 /* Pods-UrwayDemoApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09C258CF4B230EE147DC8A72DA5ED28E /* Pods-UrwayDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEBE3171791992D9F0A9B5FB44B5F34 /* Build configuration list for PBXNativeTarget "Pods-UrwayDemoApp" */;
+			buildPhases = (
+				C26011D73AAEFDDF4E0473BE8DD490CC /* Headers */,
+				2A9BA863BE8EBDB0D6EE55A28145A535 /* Sources */,
+				B2AA06B24FB27BE01FBCD8C0C7DA4093 /* Frameworks */,
+				DC50EEEE5D7CD60369DB7499FAEC85AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A88211DC2329D73D38CF75AF58C8C04 /* PBXTargetDependency */,
+			);
+			name = "Pods-UrwayDemoApp";
+			productName = "Pods-UrwayDemoApp";
+			productReference = 351B47B121D64C332390860183719D52 /* Pods_UrwayDemoApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FC33FA1649DC6BAFC20DBB8AA8BABB2 /* Urway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E091AC5B4773AA162967409C05A2F437 /* Build configuration list for PBXNativeTarget "Urway" */;
+			buildPhases = (
+				20A757250C7CAE040970C04F83139B81 /* Headers */,
+				2B570B2599A4717DA5B801349CF4122E /* Sources */,
+				E9BC90EAE912C3DDE11ADED9151B6B81 /* Frameworks */,
+				F4004AC572FF1A26B84C06AD95F2A95B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Urway;
+			productName = Urway;
+			productReference = 4A523C4E80063887D5685EAFF16EF065 /* Urway.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7EB3750BBD34D60D63788CEF74A08B29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C258CF4B230EE147DC8A72DA5ED28E /* Pods-UrwayDemoApp */,
+				3FC33FA1649DC6BAFC20DBB8AA8BABB2 /* Urway */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC50EEEE5D7CD60369DB7499FAEC85AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4004AC572FF1A26B84C06AD95F2A95B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EF623354D9A0DDB1D3054608719616 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A9BA863BE8EBDB0D6EE55A28145A535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2C082A85B877151A3ED850A1E2DEAF /* Pods-UrwayDemoApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B570B2599A4717DA5B801349CF4122E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38C0DD0B1CE4E354755D1015449AA0D /* PaymentConfiguration.swift in Sources */,
+				D7EA018C95673A20FF668AB0266796B4 /* PaymentInteractor.swift in Sources */,
+				A44B7F37E7141C94D436E5335341DD40 /* PaymentManager.swift in Sources */,
+				427EB15888BDFB3EB851DCAE5BA11387 /* PaymentPresenter.swift in Sources */,
+				63713EC0D86B8D19821A5F084A3994FE /* PaymentRouter.swift in Sources */,
+				34FD57C64FF39FF125679D02A885F3D3 /* PaymentViewController.swift in Sources */,
+				BBB690DBAFA2070483D040BFE373D73C /* UMResponceErrorEnum.swift in Sources */,
+				D97A28EDB947551558AA8CE5C75BEEA4 /* UMUtilities.swift in Sources */,
+				F5CF97D602E7DF19DDF46251B69424C7 /* Urway-dummy.m in Sources */,
+				5975CF505CBDAAE3574B17E11434DFC8 /* UWConfiguration.swift in Sources */,
+				D7EE43D7F4D91579963ADFBF9EA51D83 /* UWInitialization.swift in Sources */,
+				A8C0F41846BE5C8202D54A76D1ABF06A /* UWInitializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A88211DC2329D73D38CF75AF58C8C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Urway;
+			target = 3FC33FA1649DC6BAFC20DBB8AA8BABB2 /* Urway */;
+			targetProxy = 021AA4DDC76382BF27A3466AB9A3BF89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		100F3773767BC6607F30D16D19E0C3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6246037781C38CECC4355AB94579DA29 /* Pods-UrwayDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UrwayDemoApp/Pods-UrwayDemoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UrwayDemoApp/Pods-UrwayDemoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		419B7A233461855C6D42EC8AA539E076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6087E878DA4C22D7946A3395527E03 /* Pods-UrwayDemoApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UrwayDemoApp/Pods-UrwayDemoApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UrwayDemoApp/Pods-UrwayDemoApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42F897717DBC0A63A66928E52799E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37BAEEB7E407AED0DE7177C9BE29BE2E /* Urway.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Urway/Urway-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Urway/Urway-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Urway/Urway.modulemap";
+				PRODUCT_MODULE_NAME = Urway;
+				PRODUCT_NAME = Urway;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D353EE3C7B981ED0A702191FE844121B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FAD5ED4906C00EAD190948075B83438 /* Urway.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Urway/Urway-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Urway/Urway-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Urway/Urway.modulemap";
+				PRODUCT_MODULE_NAME = Urway;
+				PRODUCT_NAME = Urway;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEBE3171791992D9F0A9B5FB44B5F34 /* Build configuration list for PBXNativeTarget "Pods-UrwayDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100F3773767BC6607F30D16D19E0C3E6 /* Debug */,
+				419B7A233461855C6D42EC8AA539E076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E091AC5B4773AA162967409C05A2F437 /* Build configuration list for PBXNativeTarget "Urway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D353EE3C7B981ED0A702191FE844121B /* Debug */,
+				B42F897717DBC0A63A66928E52799E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
